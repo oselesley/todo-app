@@ -1,0 +1,42 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport", content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="to-do application">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./images/favicon.png">
+    <title>To Do App</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="header__title">Todo App</h1>
+        <h2 class="header__subtitle">What do you need to do?</h2>
+      </div>
+    </header>
+    <section class="actions">
+      <div class="actions__container">
+        <input type="text" name="searchTodos" id="search-todos" placeholder="Search Todos" class="input">
+        <div id="hide-completed">
+          <label for="hide-completed" class="checkbox">
+          <input type="checkbox" name="hideCompleted" id="hide-completed">
+          Hide Completed</label>
+        </div >
+      </div>
+    </section>
+      <h3></h3>
+    <div class="canvas container"></div>
+    <div class="container">
+      <form action="" id="add-todo">
+        <input type="text" name="addTodo" id="" placeholder=" add todo" class="input">
+        <button  class="button">Add Todo</button>
+      </form>
+      <small></small>
+    </div>
+  </body>
+  <script src="./scripts/randomunique-idgen.js"></script>
+  <script src="./scripts/todo-app-functions.js"></script>
+  <script src="./scripts/todo-app.js"></script>
+</html>
